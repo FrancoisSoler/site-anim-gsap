@@ -1,6 +1,6 @@
 import './css/style.scss'
-import { gsap } from "gsap";
-import { CSSRulePlugin } from 'gsap/CSSRulePlugin';
+import { gsap } from "./node_modules/gsap";
+import { CSSRulePlugin } from './node_modules/gsap/CSSRulePlugin';
 
 gsap.registerPlugin(CSSRulePlugin);
 let tl = gsap.timeline({defaults: {ease: "power4.inOut", duration: 2}})
